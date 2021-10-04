@@ -26,5 +26,5 @@ Demostracion de la pagina web:
 
 6. Estructura de la base de datos SQL en XAMPP: 
 
-![](img/5.png)
+![](img/6.png)
 
