@@ -22,18 +22,23 @@ include("adminpartials/head.php");
                 <div class="col-sm-12">
                     <?php
                     include_once "../partials/conexion.php";
-                    foreach ($pdo->query('SELECT * FROM `products`') as $row) {
+                    $id = $_GET["pro_id"];
+                    foreach ($pdo->query("SELECT * FROM products where id='$id'") as $row) {
                         //print_r($row["name"]);
                     ?>
-                        <a href="proshow.php?pro_id=<?php echo $row["id"]; ?>">
-                        <h3> <?php
-                                echo $row["id"];
-                                echo ": ";
-                                echo $row["name"];
-                                ?>
+                        <h3> Name: <?php echo $row["name"]; ?>
                             <hr>
                         </h3>
-                        </a>
+
+                        <h3> Price: <?php echo $row["price"]; ?>
+                            <hr>
+                        </h3>
+
+                        <h3> Description: <?php echo $row["description"]; ?>
+                            <hr>
+                        </h3>
+
+                        <img src="<?php echo $row["picture"]; ?>" alt="no file" style="height:300px; width:300px;">
                     <?php
                     }
                     ?>

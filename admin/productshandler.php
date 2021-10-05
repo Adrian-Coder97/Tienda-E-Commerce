@@ -9,7 +9,7 @@ if ($_POST) {
     $cat = $_POST["cat"];
 
     //TO STORE AN IMAGE IN OUR DB: 
-    $target = "../uploads";
+    $target = "../uploads/";
     $file_path = $target . basename($_FILES['file']['name']);
     $file_name = $_FILES['file']['name'];
     $file_tmp = $_FILES['file']['tmp_name'];
@@ -25,5 +25,5 @@ if ($_POST) {
     /*cerrar la conexion de agregar:*/
     $sentencia_agregar = null;
     $pdo = null;
-    header("location:../admin"); //recargar la pagina cuando se envien los datos 
+    header("location:../admin/createProduct.php"); //recargar la pagina cuando se envien los datos 
 }
