@@ -31,9 +31,10 @@ include("adminpartials/head.php");
                                 echo ": ";
                                 echo $row["name"];
                                 ?>
-                            <hr>
                         </h3>
                         </a>
+                        <a href="proupdate.php?up_id=<?php echo $row["id"]; ?>"> <button>Update</button> </a>
+                        <hr>
                     <?php
                     }
                     ?>
