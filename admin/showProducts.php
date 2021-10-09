@@ -34,6 +34,7 @@ include("adminpartials/head.php");
                         </h3>
                         </a>
                         <a href="proupdate.php?up_id=<?php echo $row["id"]; ?>"> <button>Update</button> </a>
+                        <a href="prodelete.php?del_id=<?php echo $row["id"]; ?>"> <button style="color: red;">Delete</button> </a>
                         <hr>
                     <?php
                     }
