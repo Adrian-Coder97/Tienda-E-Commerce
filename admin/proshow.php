@@ -37,7 +37,7 @@ include("adminpartials/head.php");
                         <h3> Description: <?php echo $row["description"]; ?>
                             <hr>
                         </h3>
-
+                        <p><?php echo $row["picture"];?></p>
                         <img src="../<?php echo $row["picture"]; ?>" alt="no file" style="height:300px; width:300px;">
                     <?php
                     }

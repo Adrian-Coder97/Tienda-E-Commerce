@@ -6,6 +6,16 @@ include("partials/conexion.php")
 <header>
 	<!-- Header desktop -->
 	<div class="container-menu-desktop">
+		<!-- Topbar -->
+		<div class="top-bar">
+				<div class="content-topbar flex-sb-m h-full container">
+					<div class="right-top-bar flex-w h-full">
+						<a href="#" class="flex-c-m trans-04 p-lr-25">
+							My Account
+						</a>
+					</div>
+				</div>
+			</div>
 		<div class="wrap-menu-desktop">
 			<nav class="limiter-menu-desktop container">
 
@@ -21,7 +31,7 @@ include("partials/conexion.php")
 							<a href="index.php">Home</a>
 						</li>
 						<li>
-							<a href="shop.php">Shop</a>
+							<a href="product.php">Shop</a>
 						</li>
 						<li>
 							<a href="about.php">About</a>
