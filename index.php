@@ -11,7 +11,7 @@ include("partials/head.php");
 	include("partials/cart.php");
 	include("partials/slider.php");
 	include("partials/banner.php");
-	include("partials/product.php");
+	include("product.php");
 	include("partials/footer.php");
 	?>
 
