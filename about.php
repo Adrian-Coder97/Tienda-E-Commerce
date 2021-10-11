@@ -13,7 +13,7 @@ include("partials/head.php");
 	?>
 
 	<!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/back.jpg');">
 		<h2 class="ltext-105 cl0 txt-center">
 			About
 		</h2>
@@ -47,7 +47,7 @@ include("partials/head.php");
 				<div class="col-11 col-md-5 col-lg-4 m-lr-auto">
 					<div class="how-bor1 ">
 						<div class="hov-img0">
-							<img src="images/about-01.jpg" alt="IMG">
+							<img src="images/yg.jpg" alt="IMG">
 						</div>
 					</div>
 				</div>
@@ -79,7 +79,7 @@ include("partials/head.php");
 				<div class="order-md-1 col-11 col-md-5 col-lg-4 m-lr-auto p-b-30">
 					<div class="how-bor2">
 						<div class="hov-img0">
-							<img src="images/about-02.jpg" alt="IMG">
+							<img src="images/plant.jpg" alt="IMG">
 						</div>
 					</div>
 				</div>

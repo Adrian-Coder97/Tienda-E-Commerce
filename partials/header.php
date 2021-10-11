@@ -21,7 +21,7 @@ include("partials/conexion.php")
 
 				<!-- Logo desktop -->
 				<a href="index.php" class="logo">
-					<img src="images/icons/logo-01.png" alt="IMG-LOGO">
+					<h1>Store</h1>
 				</a>
 
 				<!-- Menu desktop -->
