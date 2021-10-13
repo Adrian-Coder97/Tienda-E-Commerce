@@ -77,8 +77,10 @@ include("partials/head.php");
 											<i class="fs-16 zmdi zmdi-plus"></i>
 										</div>
 									</div>
-
-									<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+																																														
+									<button class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04" 
+											name="addtocart" 
+											onclick="location.href='carthandler.php?cart_id=<?php foreach ($resultado as $dato) :  echo $dato['id']; ?> &cart_name=<?php echo $dato['name']; ?>&cart_price=<?php echo $dato['price']; endforeach?>'">
 										Add to cart
 									</button>
 								</div>
