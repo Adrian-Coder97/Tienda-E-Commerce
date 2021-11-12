@@ -38,8 +38,8 @@ include("partials/head.php");
                             <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="password" name="password" placeholder="password">
                         </div>
 
-                        <button class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
-                            Submit
+                        <button class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer" name="login">
+                            Log In 
                         </button>
                     </form>
                 </div>
