@@ -45,7 +45,7 @@ if (isset($_POST["login"])) {
                 </div>
             </div>
             <div class="box-footer">
-                <button type="submit" class="btn btn-default">Cancel</button>
+                <button type="submit" class="btn btn-default"><a href="../index.php">Back to Store</a></button>
                 <button type="submit" class="btn btn-info pull-right" name="login">Sign in</button>
             </div>
         </form>
