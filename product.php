@@ -269,7 +269,7 @@ include("partials/cart.php");
 						<!-- Block2 -->
 						<div class="block2">
 							<div class="block2-pic hov-img0">
-								<img src="<?php echo $dato["picture"]; ?>" alt="IMG-PRODUCT">
+								<img src="<?php echo $dato["picture"]; ?>" alt="IMG-PRODUCT" style="max-height: 300px; min-height: 300px">
 								<a href="details.php?details_id=<?php echo $dato["id"]; ?>" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
 									View
 								</a>

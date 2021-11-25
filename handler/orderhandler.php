@@ -39,3 +39,5 @@ foreach ($_SESSION['cart'] as $key => $value) {
 echo "<script> alert('ORDER PLACED SUCCESSFULLY');
     window.location.href='../index.php'; 
 </script>";//redirect
+
+unset($_SESSION["cart"]); //clear cart after order is placed

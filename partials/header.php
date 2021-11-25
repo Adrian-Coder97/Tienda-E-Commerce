@@ -10,9 +10,14 @@ include("partials/conexion.php")
 		<div class="top-bar">
 			<div class="content-topbar flex-sb-m h-full container">
 				<div class="right-top-bar flex-w h-full">
-					<a href="#" class="flex-c-m trans-04 p-lr-25">
-						My Account
-					</a>
+					<?php
+					if (!empty($_SESSION["email"])) {
+						echo '<a href="./handler/customerlogout.php" class="flex-c-m trans-04 p-lr-25">Logout</a>';
+					}else{
+						echo '<a href="customerforms.php" class="flex-c-m trans-04 p-lr-25">Login</a>';
+					}
+					?>
+
 				</div>
 			</div>
 		</div>

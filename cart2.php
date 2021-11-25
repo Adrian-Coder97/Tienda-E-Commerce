@@ -31,8 +31,9 @@ include("partials/head.php");
 								</tr>
 
 								<?php
+								$total = 0;
 								if (isset($_SESSION["cart"])) {
-									$total = 0;
+									
 									foreach ($_SESSION["cart"] as $key => $value) {
 										$total = $total + $value["item_price"];
 								?>
